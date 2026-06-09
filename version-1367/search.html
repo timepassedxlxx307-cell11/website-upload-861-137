@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全站搜索 - 国产影视</title>
+  <meta name="description" content="搜索片名、年份、地区、类型与标签，快速找到对应影视详情页和在线播放入口。">
+  <meta name="keywords" content="影视搜索,片库搜索,高清播放,国产视频免费在线播放·电视剧大全高清版观看入口-优质国产影视,国产,视频,免费,在线观看,高清,影视大全">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="index.html" aria-label="国产影视首页">
+      <span class="brand-mark">影</span>
+      <span class="brand-copy">
+        <span class="brand-name">国产影视</span>
+        <span class="brand-tagline">高清免费视频点播</span>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html" class="nav-link ">首页</a>
+      <div class="nav-dropdown">
+        <button class="nav-link nav-dropdown-button" type="button">分类</button>
+        <div class="nav-menu"><a href="categories/guochan.html" class="nav-menu-link">国产</a><a href="categories/rihan.html" class="nav-menu-link">日韩</a><a href="categories/oumei.html" class="nav-menu-link">欧美</a><a href="categories/qita.html" class="nav-menu-link">其他</a></div>
+      </div>
+      <a href="rankings.html" class="nav-link ">排行榜</a>
+      <a href="search.html" class="nav-link is-active">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="打开导航">☰</button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <a href="index.html">首页</a>
+    <a href="categories/guochan.html">国产</a><a href="categories/rihan.html">日韩</a><a href="categories/oumei.html">欧美</a><a href="categories/qita.html">其他</a>
+    <a href="rankings.html">排行榜</a>
+    <a href="search.html">搜索</a>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-hero slim-hero">
+    <div class="section-shell">
+      <span class="hero-eyebrow">Search · 片库检索</span>
+      <h1>全站搜索</h1>
+      <p>支持按片名、地区、年份、类型、标签和简介关键词检索。</p>
+      <form class="quick-search search-page-form" action="search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="输入关键词" aria-label="全站搜索关键词">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="section-block">
+    <div class="section-shell">
+      <div class="search-summary" data-search-summary></div>
+      <div class="movie-grid listing-grid" data-search-results></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-shell">
+    <div>
+      <a class="footer-logo" href="index.html">国产影视</a>
+      <p>汇集国产电视剧大全等内容，提供视频免费在线播放与在线点播服务，支持高清版播放与分类筛选，便于按榜单与片库浏览。</p>
+    </div>
+    <nav aria-label="底部导航">
+      <a href="index.html">首页</a>
+      <a href="categories/guochan.html">国产</a><a href="categories/rihan.html">日韩</a><a href="categories/oumei.html">欧美</a><a href="categories/qita.html">其他</a>
+      <a href="rankings.html">排行榜</a>
+      <a href="search.html">搜索</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/movies-search.js"></script>
+<script type="module" src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

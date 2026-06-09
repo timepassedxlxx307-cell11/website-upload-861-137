@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全站搜索 - 国产免费电视剧频道</title>
+  <meta name="description" content="按标题、地区、类型、标签、简介检索全站影片。">
+  <meta name="keywords" content="搜索,全站搜索,影片检索,标签筛选,国产免费电视剧频道">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="全站搜索 - 国产免费电视剧频道">
+  <meta property="og:description" content="按标题、地区、类型、标签、简介检索全站影片。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/site.css">
+  
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="返回首页">
+          <span class="brand-mark">剧</span>
+          <span class="brand-name">国产剧场</span>
+        </a>
+        <button class="menu-toggle" data-menu-toggle aria-label="切换菜单">☰</button>
+        <nav class="nav" data-nav>
+          <a class="" href="index.html">首页</a>
+          <div class="dropdown">
+            <button type="button" class="">分类</button>
+            <div class="dropdown-panel">
+              <a href="categories/sci-fi-fantasy.html">科幻奇幻</a><a href="categories/suspense-thriller.html">悬疑惊悚</a><a href="categories/crime-action.html">犯罪动作</a><a href="categories/drama-healing.html">剧情治愈</a><a href="categories/comedy-music.html">喜剧音乐</a><a href="categories/animation-fairy.html">动画童话</a><a href="categories/love-family.html">爱情家庭</a><a href="categories/horror-adventure.html">恐怖冒险</a><a href="categories/doc-biography.html">纪录传记</a><a href="categories/history-war.html">历史战争</a><a href="categories/urban-workplace.html">都市职场</a><a href="categories/all-collection.html">综合推荐</a>
+              <a href="categories.html">分类总览</a>
+            </div>
+          </div>
+          <a class="" href="ranking.html">排行榜</a>
+          <a class="active" href="search.html">搜索</a>
+          <a class="" href="categories.html">精选合集</a>
+        </nav>
+        <div class="nav-right">
+          <form class="searchbar" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片、类型、地区、标签" />
+            <span class="icon">⌕</span>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main data-search-page>
+      <section class="section">
+        <div class="container">
+          <div class="detail-block">
+            <div class="section-head">
+              <div>
+                <h1 class="section-title">全站搜索</h1>
+                <p class="section-subtitle">输入影片标题、地区、类型、标签或简介关键词，自动匹配 2000 条影片数据。</p>
+              </div>
+              <div class="section-tools">
+                <span class="chip" data-search-stats>正在加载搜索索引…</span>
+              </div>
+            </div>
+            <div class="searchbar" style="max-width: 100%; margin-bottom: 16px;">
+              <input type="search" data-search-query placeholder="搜索影片、地区、类型、标签…" />
+              <span class="icon">⌕</span>
+            </div>
+            <div class="grid grid-4" data-search-results></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:space-between; align-items:center;">
+            <div>
+              <strong style="color:#fff; font-size:1.05rem;">国产剧场</strong>
+              <div style="margin-top:6px;">高清播放 · 热播电影 · 国产精选正版视频大全</div>
+            </div>
+            <button class="btn btn-ghost" data-back-to-top>返回顶部</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/site.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
